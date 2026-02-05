@@ -1,0 +1,6 @@
+@Nadam.WarehouseManagement_HostAddress = http://localhost:5173
+
+GET {{Nadam.WarehouseManagement_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
