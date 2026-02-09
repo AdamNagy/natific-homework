@@ -7,7 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="8.1.4" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\Nadam.WarehouseManagement.Contracts\Nadam.WarehouseManagement.Contracts.csproj" />
+    <ProjectReference Include="..\Nadam.WarehouseManagement.DataAccess\Nadam.WarehouseManagement.DataAccess.csproj" />
     <ProjectReference Include="..\Nadam.WarehouseManagement.Domain\Nadam.WarehouseManagement.Domain.csproj" />
   </ItemGroup>
 

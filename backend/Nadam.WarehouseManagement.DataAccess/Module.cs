@@ -9,7 +9,7 @@ public static class Module
     public static IServiceCollection AddData(this IServiceCollection services, IConfiguration configuration)
     {
         services.AddDbContext<WarehouseDbContext>((options) => {
-            options.UseSqlServer(configuration.GetConnectionString("WarehouseDatabase"));
+            options.UseSqlServer(configuration.GetConnectionString("Warehouse"));
         });
 
         return services;

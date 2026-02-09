@@ -1,4 +1,4 @@
-﻿namespace Nadam.WarehouseManagement.Contracts;
+﻿namespace Nadam.WarehouseManagement.Contracts.Models;
 
 /// <summary>
 /// Represents a Part in the warehouse
@@ -13,6 +13,6 @@ public record Part(
     Guid Id,
     string Name,
     string Description,
-    uint Price,
-    uint Weight,
-    uint Amount);
+    int Price,
+    int Weight,
+    int Amount);
